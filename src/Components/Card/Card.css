@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+.card{
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.card:hover > img{
+transform: scale(1.05,1.04);
+transition: .3s;
+}
+.card-body{
+    background-color:#212529 ;
+}
+
+.card-body h4{
+    color: rgba(222, 192, 23, 0.6);
+   font-family: 'Merriweather', serif;
+}
+
+.card-body p{
+    color: #fff;
+   font-family: 'Merriweather', serif;
+
+}

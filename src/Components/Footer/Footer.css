@@ -1,0 +1,14 @@
+footer{
+    background-color: #2b2e32;
+
+    div{
+        color: #fff;
+        a{
+            color: #FA0203;
+            transition: .2s;
+        }
+        a:hover{
+            text-decoration: underline !important;
+        }
+    }
+}

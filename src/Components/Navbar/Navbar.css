@@ -1,0 +1,82 @@
+header{
+       padding: 1.5rem 1rem;
+}
+header img{
+    height: 5rem;
+}
+
+.searchTab{
+    border: .25rem solid #fff;
+    border-radius: .75rem;
+    position: relative;
+    width: 27rem;
+    height: 3.5rem;
+
+    input{
+        background: transparent;
+        outline: none;
+        border: none;
+        position: absolute;
+        padding: 1rem;
+        left: 0;
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+    ::placeholder{
+        font-size: 1.4rem;
+        color: #e8dfdf;
+    }
+    button{
+        right: 0;
+        background: transparent;
+        outline: none;
+        border: none;
+        position: absolute;
+        padding: 1rem;
+        svg{
+            fill: #fff;
+            transition: .2s;
+        }
+        svg:hover{
+            fill: #FA0203;
+        }
+    }
+}
+
+.loginLogoutBtn{
+    button{
+        background: transparent;
+        outline: none;
+        border: .25rem solid #fff;
+        border-radius: .5rem;
+        padding: .5rem 1rem;
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: 500;
+        transition: .2s;
+    }
+    button:hover{
+        border:.25rem solid #FA0203;
+        color: #FA0203;
+    }
+}
+
+@media(width<600px){
+    header{
+        padding-bottom:6rem !important ;
+    }
+    .searchTab{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+.userName{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
